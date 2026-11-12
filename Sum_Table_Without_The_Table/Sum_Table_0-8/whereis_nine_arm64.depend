@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1735813101 source:/home/acherontas/codeblock/whereis_nine_arm64/main.cpp
+	<cstdlib>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<pthread.h>
+	<thread>
+	<iomanip>
+	<cmath>
+	<chrono>
+
+1794478182 source:/home/acherontas/codeblocks/Sum_Table_0-8/main.cpp
+	<cstdlib>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	<pthread.h>
+	<thread>
+	<iomanip>
+	<cmath>
+	<chrono>
+

@@ -1,0 +1,4440 @@
+number , chrono, manual, range value reporter
+voyeristic behaviours and others have fun
+
+Control_Digit as Index     Index_Position  
+                           1 2 3 4 5 6 7 8 (9) 
+or                         0 1 2 3 4 5 6 7 (8) 
+            :            -----results:-------- 
+1 or 0 with :            | 8 7 6 5 4 3 2 1 (0) 
+2 or 1 with :            | 0 8 7 6 5 4 3 2 (1) 
+3 or 2 with :            | 1 0 8 7 6 5 4 3 (2) 
+4 or 3 with :            | 2 1 0 8 7 6 5 4 (3) 
+5 or 4 with :            | 3 2 1 0 8 7 6 5 (4) 
+6 or 5 with :            | 4 3 2 1 0 8 7 6 (5) 
+7 or 6 with :            | 5 4 3 2 1 0 8 7 (6) 
+8 or 7 with :            | 6 5 4 3 2 1 0 8 (7) 
+9 or 8 with :            | 7 6 5 4 3 2 1 0 (8) 
+
+
+
+number of rows 847
+
+for ur number: 27812411242141412412412414124212453534534534543533451343153234153234134655456456155447556671563756657551721675674566476568876788647856567586528152371557456547556571254124152234552541124122451244564125644148235435644535464652375845254847665447656571165654786547656548664856764886748676485674566748568498486904889406840648950856405689475689487485667485664856746565455647534456574456547465475454765454575445576445574456744564755475644765454765454765454745645754545756447465578124112421414124124124141242124535345345345435334513431532341532341346554564561554475566715637566575517216756745664765688767886478565675865281523715574565475565712541241522345525411241224512445641256441482354356445354646523758452548476654476565711656547865476565486648567648867486764856745667485684984869048894068406489508564056894756894874856674856648567465654556475344565744565474654754547654545754455764455744567445647554756447654547654547654547456457545457564474655123131312442121311132114342423423424243131313131313243243142343544543538534095803132213123131313131231248278947283397238957348975348957893478394754893758493753489754938759834758934754893753498758349754387584758397548397538754837534857131312321902385034984986950860575676557465568456764857648756648765847656487564856764867584567648656748566748567485766485678567812561786724898756945819178329178945879478291789458764975864953789457849578498574909856048595378458456357156217423432533454563445331554454365455343465544655446554463451643556545644256145675574556475646565475665475656754574556475546475547565475567554755647553454556345543455644356455642541224249178917481247814783454864568657486878787866475674566574564656758776877886578786787867869887689776983 with length 1693 the cd is 8378 >> 8
+
+
+counter  control digit  position  returned number 
+  0             2          1         0
+
+         29 - 27 = 2    ----> 2 - 2 = 0 || 
+
+counter  control digit  position  returned number 
+  1             8          7         0
+
+         89 - 81 = 8    ----> 8 - 8 = 0 || 
+
+counter  control digit  position  returned number 
+  2             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  3             1          7         2
+
+         19 - 11 = 8    ----> 1 - 8 = 2 || 
+
+counter  control digit  position  returned number 
+  4             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+14 14 
+
+counter  control digit  position  returned number 
+  5             2          7         3
+
+         29 - 21 = 8    ----> 2 - 8 = 3 || 
+
+counter  control digit  position  returned number 
+  6             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  7             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  8             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  9             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+22 36 
+
+counter  control digit  position  returned number 
+  10             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  11             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  12             1          4         5
+
+         19 - 14 = 5    ----> 1 - 5 = 5 || 
+
+counter  control digit  position  returned number 
+  13             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  14             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+25 61 
+
+counter  control digit  position  returned number 
+  15             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  16             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  17             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  18             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  19             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+26 87 
+
+counter  control digit  position  returned number 
+  20             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  21             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  22             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  23             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  24             3          5         6
+
+         39 - 33 = 6    ----> 3 - 6 = 6 || 
+21 108 
+
+counter  control digit  position  returned number 
+  25             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  26             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  27             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  28             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  29             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+22 130 
+
+counter  control digit  position  returned number 
+  30             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  31             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  32             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+
+counter  control digit  position  returned number 
+  33             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  34             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+29 159 
+
+counter  control digit  position  returned number 
+  35             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+
+counter  control digit  position  returned number 
+  36             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  37             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  38             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  39             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+5 164 
+
+counter  control digit  position  returned number 
+  40             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  41             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  42             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  43             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  44             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+12 176 
+
+counter  control digit  position  returned number 
+  45             7          7         8
+
+         79 - 71 = 8    ----> 7 - 8 = 8 || 
+
+counter  control digit  position  returned number 
+  46             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  47             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  48             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  49             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+15 191 
+
+counter  control digit  position  returned number 
+  50             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  51             5          7         6
+
+         59 - 51 = 8    ----> 5 - 8 = 6 || 
+
+counter  control digit  position  returned number 
+  52             7          6         0
+
+         79 - 72 = 7    ----> 7 - 7 = 0 || 
+
+counter  control digit  position  returned number 
+  53             1          2         7
+
+         19 - 16 = 3    ----> 1 - 3 = 7 || 
+
+counter  control digit  position  returned number 
+  54             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+19 210 
+
+counter  control digit  position  returned number 
+  55             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  56             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  57             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  58             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  59             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+11 221 
+
+counter  control digit  position  returned number 
+  60             6          0         5
+
+         69 - 68 = 1    ----> 6 - 1 = 5 || 
+
+counter  control digit  position  returned number 
+  61             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+
+counter  control digit  position  returned number 
+  62             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  63             8          0         7
+
+         89 - 88 = 1    ----> 8 - 1 = 7 || 
+
+counter  control digit  position  returned number 
+  64             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+23 244 
+
+counter  control digit  position  returned number 
+  65             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  66             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  67             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  68             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  69             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+18 262 
+
+counter  control digit  position  returned number 
+  70             5          6         7
+
+         59 - 52 = 7    ----> 5 - 7 = 7 || 
+
+counter  control digit  position  returned number 
+  71             8          7         0
+
+         89 - 81 = 8    ----> 8 - 8 = 0 || 
+
+counter  control digit  position  returned number 
+  72             5          6         7
+
+         59 - 52 = 7    ----> 5 - 7 = 7 || 
+
+counter  control digit  position  returned number 
+  73             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  74             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+21 283 
+
+counter  control digit  position  returned number 
+  75             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  76             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  77             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  78             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  79             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+8 291 
+
+counter  control digit  position  returned number 
+  80             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  81             7          7         8
+
+         79 - 71 = 8    ----> 7 - 8 = 8 || 
+
+counter  control digit  position  returned number 
+  82             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+
+counter  control digit  position  returned number 
+  83             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  84             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+28 319 
+
+counter  control digit  position  returned number 
+  85             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  86             2          6         4
+
+         29 - 22 = 7    ----> 2 - 7 = 4 || 
+
+counter  control digit  position  returned number 
+  87             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  88             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  89             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+25 344 
+
+counter  control digit  position  returned number 
+  90             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  91             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  92             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  93             2          6         4
+
+         29 - 22 = 7    ----> 2 - 7 = 4 || 
+
+counter  control digit  position  returned number 
+  94             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+17 361 
+
+counter  control digit  position  returned number 
+  95             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  96             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  97             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  98             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  99             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+25 386 
+
+counter  control digit  position  returned number 
+  100             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  101             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  102             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  103             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  104             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+14 400 
+
+counter  control digit  position  returned number 
+  105             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  106             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  107             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  108             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  109             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+18 418 
+
+counter  control digit  position  returned number 
+  110             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+
+counter  control digit  position  returned number 
+  111             5          6         7
+
+         59 - 52 = 7    ----> 5 - 7 = 7 || 
+
+counter  control digit  position  returned number 
+  112             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  113             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  114             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+13 431 
+
+counter  control digit  position  returned number 
+  115             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+
+counter  control digit  position  returned number 
+  116             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  117             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  118             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  119             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+15 446 
+
+counter  control digit  position  returned number 
+  120             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  121             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  122             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  123             7          7         8
+
+         79 - 71 = 8    ----> 7 - 8 = 8 || 
+
+counter  control digit  position  returned number 
+  124             1          2         7
+
+         19 - 16 = 3    ----> 1 - 3 = 7 || 
+21 467 
+
+counter  control digit  position  returned number 
+  125             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  126             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  127             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  128             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  129             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+12 479 
+
+counter  control digit  position  returned number 
+  130             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  131             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  132             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  133             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  134             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+13 492 
+
+counter  control digit  position  returned number 
+  135             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  136             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  137             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  138             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  139             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+16 508 
+
+counter  control digit  position  returned number 
+  140             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  141             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  142             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  143             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  144             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+16 524 
+
+counter  control digit  position  returned number 
+  145             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  146             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  147             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  148             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  149             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+14 538 
+
+counter  control digit  position  returned number 
+  150             9          0         8
+
+         99 - 98 = 1    ----> 9 - 1 = 8 || 
+
+counter  control digit  position  returned number 
+  151             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  152             6          -1         0
+
+         69 - 69 = 0    ----> 6 - 0 = 6 || 
+
+counter  control digit  position  returned number 
+  153             9          4         4
+
+         9 - 4 = 5    ----> 9 - 5 = 4 || 
+
+counter  control digit  position  returned number 
+  154             8          0         7
+
+         89 - 88 = 1    ----> 8 - 1 = 7 || 
+28 566 
+
+counter  control digit  position  returned number 
+  155             9          4         4
+
+         99 - 94 = 5    ----> 9 - 5 = 4 || 
+
+counter  control digit  position  returned number 
+  156             9          2         6
+
+         9 - 6 = 3    ----> 9 - 3 = 6 || 
+
+counter  control digit  position  returned number 
+  157             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+
+counter  control digit  position  returned number 
+  158             9          2         6
+
+         9 - 6 = 3    ----> 9 - 3 = 6 || 
+
+counter  control digit  position  returned number 
+  159             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+22 588 
+
+counter  control digit  position  returned number 
+  160             9          3         5
+
+         99 - 95 = 4    ----> 9 - 4 = 5 || 
+
+counter  control digit  position  returned number 
+  161             9          0         8
+
+         9 - 8 = 1    ----> 9 - 1 = 8 || 
+
+counter  control digit  position  returned number 
+  162             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  163             4          8         4
+
+         49 - 40 = 9    ----> 4 - 9 = 4 || 
+
+counter  control digit  position  returned number 
+  164             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+21 609 
+
+counter  control digit  position  returned number 
+  165             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  166             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  167             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  168             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  169             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+23 632 
+
+counter  control digit  position  returned number 
+  170             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  171             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  172             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  173             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  174             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+15 647 
+
+counter  control digit  position  returned number 
+  175             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  176             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  177             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  178             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  179             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+12 659 
+
+counter  control digit  position  returned number 
+  180             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  181             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  182             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  183             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  184             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+14 673 
+
+counter  control digit  position  returned number 
+  185             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  186             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  187             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  188             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  189             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+23 696 
+
+counter  control digit  position  returned number 
+  190             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  191             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  192             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  193             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  194             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+6 702 
+
+counter  control digit  position  returned number 
+  195             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  196             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  197             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  198             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  199             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+7 709 
+
+counter  control digit  position  returned number 
+  200             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  201             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  202             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  203             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  204             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+4 713 
+
+counter  control digit  position  returned number 
+  205             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  206             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  207             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  208             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  209             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+15 728 
+
+counter  control digit  position  returned number 
+  210             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  211             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  212             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  213             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  214             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+8 736 
+
+counter  control digit  position  returned number 
+  215             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  216             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  217             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  218             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  219             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+8 744 
+
+counter  control digit  position  returned number 
+  220             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  221             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  222             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  223             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  224             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+6 750 
+
+counter  control digit  position  returned number 
+  225             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  226             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  227             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  228             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  229             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+4 754 
+
+counter  control digit  position  returned number 
+  230             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  231             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  232             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  233             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  234             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+17 771 
+
+counter  control digit  position  returned number 
+  235             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  236             8          7         0
+
+         89 - 81 = 8    ----> 8 - 8 = 0 || 
+
+counter  control digit  position  returned number 
+  237             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  238             1          7         2
+
+         19 - 11 = 8    ----> 1 - 8 = 2 || 
+
+counter  control digit  position  returned number 
+  239             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+17 788 
+
+counter  control digit  position  returned number 
+  240             2          7         3
+
+         29 - 21 = 8    ----> 2 - 8 = 3 || 
+
+counter  control digit  position  returned number 
+  241             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  242             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  243             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  244             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+22 810 
+
+counter  control digit  position  returned number 
+  245             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  246             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  247             1          4         5
+
+         19 - 14 = 5    ----> 1 - 5 = 5 || 
+
+counter  control digit  position  returned number 
+  248             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  249             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+25 835 
+
+counter  control digit  position  returned number 
+  250             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  251             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  252             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  253             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  254             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+26 861 
+
+counter  control digit  position  returned number 
+  255             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  256             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  257             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  258             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  259             3          5         6
+
+         39 - 33 = 6    ----> 3 - 6 = 6 || 
+21 882 
+
+counter  control digit  position  returned number 
+  260             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  261             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  262             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  263             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  264             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+22 904 
+
+counter  control digit  position  returned number 
+  265             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  266             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  267             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+
+counter  control digit  position  returned number 
+  268             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  269             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+29 933 
+
+counter  control digit  position  returned number 
+  270             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+
+counter  control digit  position  returned number 
+  271             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  272             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  273             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  274             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+5 938 
+
+counter  control digit  position  returned number 
+  275             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  276             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  277             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  278             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  279             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+12 950 
+
+counter  control digit  position  returned number 
+  280             7          7         8
+
+         79 - 71 = 8    ----> 7 - 8 = 8 || 
+
+counter  control digit  position  returned number 
+  281             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  282             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  283             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  284             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+15 965 
+
+counter  control digit  position  returned number 
+  285             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  286             5          7         6
+
+         59 - 51 = 8    ----> 5 - 8 = 6 || 
+
+counter  control digit  position  returned number 
+  287             7          6         0
+
+         79 - 72 = 7    ----> 7 - 7 = 0 || 
+
+counter  control digit  position  returned number 
+  288             1          2         7
+
+         19 - 16 = 3    ----> 1 - 3 = 7 || 
+
+counter  control digit  position  returned number 
+  289             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+19 984 
+
+counter  control digit  position  returned number 
+  290             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  291             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  292             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  293             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  294             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+11 995 
+
+counter  control digit  position  returned number 
+  295             6          0         5
+
+         69 - 68 = 1    ----> 6 - 1 = 5 || 
+
+counter  control digit  position  returned number 
+  296             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+
+counter  control digit  position  returned number 
+  297             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  298             8          0         7
+
+         89 - 88 = 1    ----> 8 - 1 = 7 || 
+
+counter  control digit  position  returned number 
+  299             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+23 1018 
+
+counter  control digit  position  returned number 
+  300             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  301             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  302             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  303             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  304             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+18 1036 
+
+counter  control digit  position  returned number 
+  305             5          6         7
+
+         59 - 52 = 7    ----> 5 - 7 = 7 || 
+
+counter  control digit  position  returned number 
+  306             8          7         0
+
+         89 - 81 = 8    ----> 8 - 8 = 0 || 
+
+counter  control digit  position  returned number 
+  307             5          6         7
+
+         59 - 52 = 7    ----> 5 - 7 = 7 || 
+
+counter  control digit  position  returned number 
+  308             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  309             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+21 1057 
+
+counter  control digit  position  returned number 
+  310             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  311             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  312             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  313             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  314             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+8 1065 
+
+counter  control digit  position  returned number 
+  315             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  316             7          7         8
+
+         79 - 71 = 8    ----> 7 - 8 = 8 || 
+
+counter  control digit  position  returned number 
+  317             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+
+counter  control digit  position  returned number 
+  318             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  319             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+28 1093 
+
+counter  control digit  position  returned number 
+  320             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  321             2          6         4
+
+         29 - 22 = 7    ----> 2 - 7 = 4 || 
+
+counter  control digit  position  returned number 
+  322             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  323             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  324             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+25 1118 
+
+counter  control digit  position  returned number 
+  325             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  326             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  327             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  328             2          6         4
+
+         29 - 22 = 7    ----> 2 - 7 = 4 || 
+
+counter  control digit  position  returned number 
+  329             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+17 1135 
+
+counter  control digit  position  returned number 
+  330             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  331             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  332             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  333             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  334             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+25 1160 
+
+counter  control digit  position  returned number 
+  335             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  336             4          7         5
+
+         49 - 41 = 8    ----> 4 - 8 = 5 || 
+
+counter  control digit  position  returned number 
+  337             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  338             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  339             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+14 1174 
+
+counter  control digit  position  returned number 
+  340             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  341             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  342             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  343             3          3         8
+
+         39 - 35 = 4    ----> 3 - 4 = 8 || 
+
+counter  control digit  position  returned number 
+  344             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+18 1192 
+
+counter  control digit  position  returned number 
+  345             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+
+counter  control digit  position  returned number 
+  346             5          6         7
+
+         59 - 52 = 7    ----> 5 - 7 = 7 || 
+
+counter  control digit  position  returned number 
+  347             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  348             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  349             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+13 1205 
+
+counter  control digit  position  returned number 
+  350             2          3         7
+
+         29 - 25 = 4    ----> 2 - 4 = 7 || 
+
+counter  control digit  position  returned number 
+  351             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  352             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  353             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  354             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+15 1220 
+
+counter  control digit  position  returned number 
+  355             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  356             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  357             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  358             7          7         8
+
+         79 - 71 = 8    ----> 7 - 8 = 8 || 
+
+counter  control digit  position  returned number 
+  359             1          2         7
+
+         19 - 16 = 3    ----> 1 - 3 = 7 || 
+21 1241 
+
+counter  control digit  position  returned number 
+  360             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  361             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  362             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  363             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  364             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+12 1253 
+
+counter  control digit  position  returned number 
+  365             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  366             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  367             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  368             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  369             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+13 1266 
+
+counter  control digit  position  returned number 
+  370             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  371             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  372             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  373             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  374             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+16 1282 
+
+counter  control digit  position  returned number 
+  375             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  376             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  377             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  378             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  379             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+16 1298 
+
+counter  control digit  position  returned number 
+  380             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  381             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  382             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  383             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  384             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+14 1312 
+
+counter  control digit  position  returned number 
+  385             9          0         8
+
+         99 - 98 = 1    ----> 9 - 1 = 8 || 
+
+counter  control digit  position  returned number 
+  386             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  387             6          -1         0
+
+         69 - 69 = 0    ----> 6 - 0 = 6 || 
+
+counter  control digit  position  returned number 
+  388             9          4         4
+
+         9 - 4 = 5    ----> 9 - 5 = 4 || 
+
+counter  control digit  position  returned number 
+  389             8          0         7
+
+         89 - 88 = 1    ----> 8 - 1 = 7 || 
+28 1340 
+
+counter  control digit  position  returned number 
+  390             9          4         4
+
+         99 - 94 = 5    ----> 9 - 5 = 4 || 
+
+counter  control digit  position  returned number 
+  391             9          2         6
+
+         9 - 6 = 3    ----> 9 - 3 = 6 || 
+
+counter  control digit  position  returned number 
+  392             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+
+counter  control digit  position  returned number 
+  393             9          2         6
+
+         9 - 6 = 3    ----> 9 - 3 = 6 || 
+
+counter  control digit  position  returned number 
+  394             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+22 1362 
+
+counter  control digit  position  returned number 
+  395             9          3         5
+
+         99 - 95 = 4    ----> 9 - 4 = 5 || 
+
+counter  control digit  position  returned number 
+  396             9          0         8
+
+         9 - 8 = 1    ----> 9 - 1 = 8 || 
+
+counter  control digit  position  returned number 
+  397             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  398             4          8         4
+
+         49 - 40 = 9    ----> 4 - 9 = 4 || 
+
+counter  control digit  position  returned number 
+  399             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+21 1383 
+
+counter  control digit  position  returned number 
+  400             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  401             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  402             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  403             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  404             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+23 1406 
+
+counter  control digit  position  returned number 
+  405             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  406             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  407             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  408             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  409             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+15 1421 
+
+counter  control digit  position  returned number 
+  410             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  411             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  412             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  413             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  414             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+12 1433 
+
+counter  control digit  position  returned number 
+  415             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  416             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  417             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  418             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  419             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+14 1447 
+
+counter  control digit  position  returned number 
+  420             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  421             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  422             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  423             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  424             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+23 1470 
+
+counter  control digit  position  returned number 
+  425             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  426             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  427             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  428             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  429             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+6 1476 
+
+counter  control digit  position  returned number 
+  430             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  431             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  432             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  433             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  434             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+7 1483 
+
+counter  control digit  position  returned number 
+  435             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  436             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  437             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  438             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  439             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+4 1487 
+
+counter  control digit  position  returned number 
+  440             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  441             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  442             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  443             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  444             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+15 1502 
+
+counter  control digit  position  returned number 
+  445             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  446             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  447             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  448             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  449             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+8 1510 
+
+counter  control digit  position  returned number 
+  450             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  451             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  452             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  453             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  454             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+8 1518 
+
+counter  control digit  position  returned number 
+  455             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  456             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  457             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  458             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  459             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+6 1524 
+
+counter  control digit  position  returned number 
+  460             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  461             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  462             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  463             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  464             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+4 1528 
+
+counter  control digit  position  returned number 
+  465             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  466             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  467             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  468             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  469             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+17 1545 
+
+counter  control digit  position  returned number 
+  470             5          7         6
+
+         59 - 51 = 8    ----> 5 - 8 = 6 || 
+
+counter  control digit  position  returned number 
+  471             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  472             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  473             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  474             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+22 1567 
+
+counter  control digit  position  returned number 
+  475             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  476             2          7         3
+
+         29 - 21 = 8    ----> 2 - 8 = 3 || 
+
+counter  control digit  position  returned number 
+  477             2          7         3
+
+         29 - 21 = 8    ----> 2 - 8 = 3 || 
+
+counter  control digit  position  returned number 
+  478             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+
+counter  control digit  position  returned number 
+  479             1          7         2
+
+         19 - 11 = 8    ----> 1 - 8 = 2 || 
+20 1587 
+
+counter  control digit  position  returned number 
+  480             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+
+counter  control digit  position  returned number 
+  481             1          7         2
+
+         19 - 11 = 8    ----> 1 - 8 = 2 || 
+
+counter  control digit  position  returned number 
+  482             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  483             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+
+counter  control digit  position  returned number 
+  484             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+26 1613 
+
+counter  control digit  position  returned number 
+  485             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  486             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  487             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+
+counter  control digit  position  returned number 
+  488             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+
+counter  control digit  position  returned number 
+  489             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+31 1644 
+
+counter  control digit  position  returned number 
+  490             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  491             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  492             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  493             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  494             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+20 1664 
+
+counter  control digit  position  returned number 
+  495             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  496             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  497             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+
+counter  control digit  position  returned number 
+  498             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  499             1          4         5
+
+         19 - 14 = 5    ----> 1 - 5 = 5 || 
+27 1691 
+
+counter  control digit  position  returned number 
+  500             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  501             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  502             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  503             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  504             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+19 1710 
+
+counter  control digit  position  returned number 
+  505             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+
+counter  control digit  position  returned number 
+  506             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  507             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  508             9          -1         0
+
+         9 - 9 = 0    ----> 9 - 0 = 9 || 
+
+counter  control digit  position  returned number 
+  509             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+32 1742 
+
+counter  control digit  position  returned number 
+  510             9          5         3
+
+         9 - 3 = 6    ----> 9 - 6 = 3 || 
+
+counter  control digit  position  returned number 
+  511             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  512             2          6         4
+
+         29 - 22 = 7    ----> 2 - 7 = 4 || 
+
+counter  control digit  position  returned number 
+  513             1          5         4
+
+         19 - 13 = 6    ----> 1 - 6 = 4 || 
+
+counter  control digit  position  returned number 
+  514             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+18 1760 
+
+counter  control digit  position  returned number 
+  515             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+
+counter  control digit  position  returned number 
+  516             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+
+counter  control digit  position  returned number 
+  517             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+
+counter  control digit  position  returned number 
+  518             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+
+counter  control digit  position  returned number 
+  519             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+20 1780 
+
+counter  control digit  position  returned number 
+  520             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  521             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  522             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  523             2          1         0
+
+         29 - 27 = 2    ----> 2 - 2 = 0 || 
+
+counter  control digit  position  returned number 
+  524             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+19 1799 
+
+counter  control digit  position  returned number 
+  525             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  526             2          0         1
+
+         29 - 28 = 1    ----> 2 - 1 = 1 || 
+
+counter  control digit  position  returned number 
+  527             3          5         6
+
+         39 - 33 = 6    ----> 3 - 6 = 6 || 
+
+counter  control digit  position  returned number 
+  528             9          1         7
+
+         99 - 97 = 2    ----> 9 - 2 = 7 || 
+
+counter  control digit  position  returned number 
+  529             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+21 1820 
+
+counter  control digit  position  returned number 
+  530             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  531             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  532             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  533             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  534             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+29 1849 
+
+counter  control digit  position  returned number 
+  535             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  536             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  537             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  538             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  539             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+33 1882 
+
+counter  control digit  position  returned number 
+  540             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  541             3          -1         0
+
+         39 - 39 = 0    ----> 3 - 0 = 3 || 
+
+counter  control digit  position  returned number 
+  542             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  543             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  544             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+19 1901 
+
+counter  control digit  position  returned number 
+  545             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  546             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  547             4          -1         0
+
+         49 - 49 = 0    ----> 4 - 0 = 4 || 
+
+counter  control digit  position  returned number 
+  548             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  549             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+18 1919 
+
+counter  control digit  position  returned number 
+  550             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  551             9          1         7
+
+         99 - 97 = 2    ----> 9 - 2 = 7 || 
+
+counter  control digit  position  returned number 
+  552             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  553             9          5         3
+
+         99 - 93 = 6    ----> 9 - 6 = 3 || 
+
+counter  control digit  position  returned number 
+  554             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+19 1938 
+
+counter  control digit  position  returned number 
+  555             5          -1         0
+
+         59 - 59 = 0    ----> 5 - 0 = 5 || 
+
+counter  control digit  position  returned number 
+  556             8          5         2
+
+         89 - 83 = 6    ----> 8 - 6 = 2 || 
+
+counter  control digit  position  returned number 
+  557             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  558             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  559             9          5         3
+
+         99 - 93 = 6    ----> 9 - 6 = 3 || 
+16 1954 
+
+counter  control digit  position  returned number 
+  560             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  561             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  562             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  563             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  564             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+19 1973 
+
+counter  control digit  position  returned number 
+  565             4          -1         0
+
+         49 - 49 = 0    ----> 4 - 0 = 4 || 
+
+counter  control digit  position  returned number 
+  566             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+
+counter  control digit  position  returned number 
+  567             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  568             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  569             9          1         7
+
+         99 - 97 = 2    ----> 9 - 2 = 7 || 
+28 2001 
+
+counter  control digit  position  returned number 
+  570             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  571             3          0         2
+
+         39 - 38 = 1    ----> 3 - 1 = 2 || 
+
+counter  control digit  position  returned number 
+  572             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  573             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+
+counter  control digit  position  returned number 
+  574             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+11 2012 
+
+counter  control digit  position  returned number 
+  575             8          5         2
+
+         89 - 83 = 6    ----> 8 - 6 = 2 || 
+
+counter  control digit  position  returned number 
+  576             9          1         7
+
+         99 - 97 = 2    ----> 9 - 2 = 7 || 
+
+counter  control digit  position  returned number 
+  577             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  578             8          5         2
+
+         89 - 83 = 6    ----> 8 - 6 = 2 || 
+
+counter  control digit  position  returned number 
+  579             9          1         7
+
+         99 - 97 = 2    ----> 9 - 2 = 7 || 
+18 2030 
+
+counter  control digit  position  returned number 
+  580             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+
+counter  control digit  position  returned number 
+  581             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+
+counter  control digit  position  returned number 
+  582             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  583             8          5         2
+
+         89 - 83 = 6    ----> 8 - 6 = 2 || 
+
+counter  control digit  position  returned number 
+  584             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+19 2049 
+
+counter  control digit  position  returned number 
+  585             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  586             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  587             7          7         8
+
+         79 - 71 = 8    ----> 7 - 8 = 8 || 
+
+counter  control digit  position  returned number 
+  588             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+
+counter  control digit  position  returned number 
+  589             3          7         4
+
+         39 - 31 = 8    ----> 3 - 8 = 4 || 
+27 2076 
+
+counter  control digit  position  returned number 
+  590             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  591             2          7         3
+
+         29 - 21 = 8    ----> 2 - 8 = 3 || 
+
+counter  control digit  position  returned number 
+  592             9          8         0
+
+         99 - 90 = 9    ----> 9 - 9 = 0 || 
+
+counter  control digit  position  returned number 
+  593             2          5         5
+
+         29 - 23 = 6    ----> 2 - 6 = 5 || 
+
+counter  control digit  position  returned number 
+  594             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+17 2093 
+
+counter  control digit  position  returned number 
+  595             9          5         3
+
+         9 - 3 = 6    ----> 9 - 6 = 3 || 
+
+counter  control digit  position  returned number 
+  596             4          -1         0
+
+         49 - 49 = 0    ----> 4 - 0 = 4 || 
+
+counter  control digit  position  returned number 
+  597             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+
+counter  control digit  position  returned number 
+  598             9          0         8
+
+         99 - 98 = 1    ----> 9 - 1 = 8 || 
+
+counter  control digit  position  returned number 
+  599             6          -1         0
+
+         69 - 69 = 0    ----> 6 - 0 = 6 || 
+24 2117 
+
+counter  control digit  position  returned number 
+  600             5          8         5
+
+         59 - 50 = 9    ----> 5 - 9 = 5 || 
+
+counter  control digit  position  returned number 
+  601             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  602             9          3         5
+
+         9 - 5 = 4    ----> 9 - 4 = 5 || 
+
+counter  control digit  position  returned number 
+  603             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  604             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+22 2139 
+
+counter  control digit  position  returned number 
+  605             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  606             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  607             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+
+counter  control digit  position  returned number 
+  608             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  609             6          0         5
+
+         69 - 68 = 1    ----> 6 - 1 = 5 || 
+12 2151 
+
+counter  control digit  position  returned number 
+  610             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  611             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  612             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  613             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  614             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+13 2164 
+
+counter  control digit  position  returned number 
+  615             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  616             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  617             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  618             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  619             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+16 2180 
+
+counter  control digit  position  returned number 
+  620             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  621             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  622             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  623             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  624             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+15 2195 
+
+counter  control digit  position  returned number 
+  625             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  626             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  627             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  628             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  629             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+14 2209 
+
+counter  control digit  position  returned number 
+  630             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  631             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  632             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  633             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  634             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+13 2222 
+
+counter  control digit  position  returned number 
+  635             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  636             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  637             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  638             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  639             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+16 2238 
+
+counter  control digit  position  returned number 
+  640             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  641             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  642             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  643             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  644             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+16 2254 
+
+counter  control digit  position  returned number 
+  645             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  646             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  647             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  648             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  649             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+16 2270 
+
+counter  control digit  position  returned number 
+  650             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  651             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+
+counter  control digit  position  returned number 
+  652             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  653             1          1         8
+
+         19 - 17 = 2    ----> 1 - 2 = 8 || 
+
+counter  control digit  position  returned number 
+  654             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+24 2294 
+
+counter  control digit  position  returned number 
+  655             7          6         0
+
+         79 - 72 = 7    ----> 7 - 7 = 0 || 
+
+counter  control digit  position  returned number 
+  656             4          0         3
+
+         49 - 48 = 1    ----> 4 - 1 = 3 || 
+
+counter  control digit  position  returned number 
+  657             9          0         8
+
+         99 - 98 = 1    ----> 9 - 1 = 8 || 
+
+counter  control digit  position  returned number 
+  658             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  659             6          -1         0
+
+         69 - 69 = 0    ----> 6 - 0 = 6 || 
+20 2314 
+
+counter  control digit  position  returned number 
+  660             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  661             8          7         0
+
+         89 - 81 = 8    ----> 8 - 8 = 0 || 
+
+counter  control digit  position  returned number 
+  662             9          7         1
+
+         99 - 91 = 8    ----> 9 - 8 = 1 || 
+
+counter  control digit  position  returned number 
+  663             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  664             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+12 2326 
+
+counter  control digit  position  returned number 
+  665             9          7         1
+
+         99 - 91 = 8    ----> 9 - 8 = 1 || 
+
+counter  control digit  position  returned number 
+  666             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  667             9          4         4
+
+         99 - 94 = 5    ----> 9 - 5 = 4 || 
+
+counter  control digit  position  returned number 
+  668             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  669             7          -1         0
+
+         79 - 79 = 0    ----> 7 - 0 = 7 || 
+22 2348 
+
+counter  control digit  position  returned number 
+  670             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  671             8          6         1
+
+         89 - 82 = 7    ----> 8 - 7 = 1 || 
+
+counter  control digit  position  returned number 
+  672             9          7         1
+
+         99 - 91 = 8    ----> 9 - 8 = 1 || 
+
+counter  control digit  position  returned number 
+  673             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  674             9          4         4
+
+         99 - 94 = 5    ----> 9 - 5 = 4 || 
+14 2362 
+
+counter  control digit  position  returned number 
+  675             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  676             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  677             4          -1         0
+
+         49 - 49 = 0    ----> 4 - 0 = 4 || 
+
+counter  control digit  position  returned number 
+  678             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  679             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+20 2382 
+
+counter  control digit  position  returned number 
+  680             4          -1         0
+
+         49 - 49 = 0    ----> 4 - 0 = 4 || 
+
+counter  control digit  position  returned number 
+  681             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+
+counter  control digit  position  returned number 
+  682             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  683             9          4         4
+
+         99 - 94 = 5    ----> 9 - 5 = 4 || 
+
+counter  control digit  position  returned number 
+  684             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+25 2407 
+
+counter  control digit  position  returned number 
+  685             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+
+counter  control digit  position  returned number 
+  686             9          3         5
+
+         99 - 95 = 4    ----> 9 - 4 = 5 || 
+
+counter  control digit  position  returned number 
+  687             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  688             4          -1         0
+
+         49 - 49 = 0    ----> 4 - 0 = 4 || 
+
+counter  control digit  position  returned number 
+  689             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+22 2429 
+
+counter  control digit  position  returned number 
+  690             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  691             9          8         0
+
+         99 - 90 = 9    ----> 9 - 9 = 0 || 
+
+counter  control digit  position  returned number 
+  692             9          0         8
+
+         99 - 98 = 1    ----> 9 - 1 = 8 || 
+
+counter  control digit  position  returned number 
+  693             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  694             9          4         4
+
+         9 - 4 = 5    ----> 9 - 5 = 4 || 
+16 2445 
+
+counter  control digit  position  returned number 
+  695             8          3         4
+
+         89 - 85 = 4    ----> 8 - 4 = 4 || 
+
+counter  control digit  position  returned number 
+  696             9          3         5
+
+         99 - 95 = 4    ----> 9 - 4 = 5 || 
+
+counter  control digit  position  returned number 
+  697             3          1         1
+
+         39 - 37 = 2    ----> 3 - 2 = 1 || 
+
+counter  control digit  position  returned number 
+  698             8          4         3
+
+         89 - 84 = 5    ----> 8 - 5 = 3 || 
+
+counter  control digit  position  returned number 
+  699             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+17 2462 
+
+counter  control digit  position  returned number 
+  700             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  701             6          5         0
+
+         69 - 63 = 6    ----> 6 - 6 = 0 || 
+
+counter  control digit  position  returned number 
+  702             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  703             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  704             6          6         8
+
+         69 - 62 = 7    ----> 6 - 7 = 8 || 
+17 2479 
+
+counter  control digit  position  returned number 
+  705             1          1         8
+
+         19 - 17 = 2    ----> 1 - 2 = 8 || 
+
+counter  control digit  position  returned number 
+  706             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+
+counter  control digit  position  returned number 
+  707             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  708             3          6         5
+
+         39 - 32 = 7    ----> 3 - 7 = 5 || 
+
+counter  control digit  position  returned number 
+  709             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+34 2513 
+
+counter  control digit  position  returned number 
+  710             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  711             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  712             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  713             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  714             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+16 2529 
+
+counter  control digit  position  returned number 
+  715             3          5         6
+
+         39 - 33 = 6    ----> 3 - 6 = 6 || 
+
+counter  control digit  position  returned number 
+  716             1          3         6
+
+         19 - 15 = 4    ----> 1 - 4 = 6 || 
+
+counter  control digit  position  returned number 
+  717             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  718             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  719             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+19 2548 
+
+counter  control digit  position  returned number 
+  720             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  721             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  722             5          5         8
+
+         59 - 53 = 6    ----> 5 - 6 = 8 || 
+
+counter  control digit  position  returned number 
+  723             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  724             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+18 2566 
+
+counter  control digit  position  returned number 
+  725             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  726             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  727             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  728             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  729             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+12 2578 
+
+counter  control digit  position  returned number 
+  730             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  731             4          4         8
+
+         49 - 44 = 5    ----> 4 - 5 = 8 || 
+
+counter  control digit  position  returned number 
+  732             6          5         0
+
+         69 - 63 = 6    ----> 6 - 6 = 0 || 
+
+counter  control digit  position  returned number 
+  733             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  734             1          2         7
+
+         19 - 16 = 3    ----> 1 - 3 = 7 || 
+16 2594 
+
+counter  control digit  position  returned number 
+  735             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  736             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  737             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  738             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  739             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+11 2605 
+
+counter  control digit  position  returned number 
+  740             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+
+counter  control digit  position  returned number 
+  741             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  742             1          4         5
+
+         19 - 14 = 5    ----> 1 - 5 = 5 || 
+
+counter  control digit  position  returned number 
+  743             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  744             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+18 2623 
+
+counter  control digit  position  returned number 
+  745             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  746             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  747             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  748             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  749             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+9 2632 
+
+counter  control digit  position  returned number 
+  750             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+
+counter  control digit  position  returned number 
+  751             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  752             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  753             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  754             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+9 2641 
+
+counter  control digit  position  returned number 
+  755             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  756             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  757             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  758             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  759             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+9 2650 
+
+counter  control digit  position  returned number 
+  760             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  761             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  762             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  763             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  764             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+8 2658 
+
+counter  control digit  position  returned number 
+  765             4          2         1
+
+         49 - 46 = 3    ----> 4 - 3 = 1 || 
+
+counter  control digit  position  returned number 
+  766             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  767             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  768             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  769             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+8 2666 
+
+counter  control digit  position  returned number 
+  770             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  771             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  772             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  773             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  774             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+8 2674 
+
+counter  control digit  position  returned number 
+  775             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+
+counter  control digit  position  returned number 
+  776             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  777             4          1         2
+
+         49 - 47 = 2    ----> 4 - 2 = 2 || 
+
+counter  control digit  position  returned number 
+  778             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  779             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+15 2689 
+
+counter  control digit  position  returned number 
+  780             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  781             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  782             6          5         0
+
+         69 - 63 = 6    ----> 6 - 6 = 0 || 
+
+counter  control digit  position  returned number 
+  783             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  784             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+1 2690 
+
+counter  control digit  position  returned number 
+  785             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  786             5          3         1
+
+         59 - 55 = 4    ----> 5 - 4 = 1 || 
+
+counter  control digit  position  returned number 
+  787             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  788             4          5         7
+
+         49 - 43 = 6    ----> 4 - 6 = 7 || 
+
+counter  control digit  position  returned number 
+  789             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+18 2708 
+
+counter  control digit  position  returned number 
+  790             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  791             5          2         2
+
+         59 - 56 = 3    ----> 5 - 3 = 2 || 
+
+counter  control digit  position  returned number 
+  792             4          6         6
+
+         49 - 42 = 7    ----> 4 - 7 = 6 || 
+
+counter  control digit  position  returned number 
+  793             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  794             1          6         3
+
+         19 - 12 = 7    ----> 1 - 7 = 3 || 
+11 2719 
+
+counter  control digit  position  returned number 
+  795             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  796             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  797             9          7         1
+
+         99 - 91 = 8    ----> 9 - 8 = 1 || 
+
+counter  control digit  position  returned number 
+  798             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  799             9          7         1
+
+         99 - 91 = 8    ----> 9 - 8 = 1 || 
+20 2739 
+
+counter  control digit  position  returned number 
+  800             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  801             8          7         0
+
+         89 - 81 = 8    ----> 8 - 8 = 0 || 
+
+counter  control digit  position  returned number 
+  802             2          4         6
+
+         29 - 24 = 5    ----> 2 - 5 = 6 || 
+
+counter  control digit  position  returned number 
+  803             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  804             1          4         5
+
+         19 - 14 = 5    ----> 1 - 5 = 5 || 
+19 2758 
+
+counter  control digit  position  returned number 
+  805             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  806             3          4         7
+
+         39 - 34 = 5    ----> 3 - 5 = 7 || 
+
+counter  control digit  position  returned number 
+  807             5          4         0
+
+         59 - 54 = 5    ----> 5 - 5 = 0 || 
+
+counter  control digit  position  returned number 
+  808             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  809             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+18 2776 
+
+counter  control digit  position  returned number 
+  810             6          0         5
+
+         69 - 68 = 1    ----> 6 - 1 = 5 || 
+
+counter  control digit  position  returned number 
+  811             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  812             7          4         2
+
+         79 - 74 = 5    ----> 7 - 5 = 2 || 
+
+counter  control digit  position  returned number 
+  813             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  814             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+20 2796 
+
+counter  control digit  position  returned number 
+  815             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+
+counter  control digit  position  returned number 
+  816             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+
+counter  control digit  position  returned number 
+  817             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  818             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  819             7          3         3
+
+         79 - 75 = 4    ----> 7 - 4 = 3 || 
+21 2817 
+
+counter  control digit  position  returned number 
+  820             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  821             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+
+counter  control digit  position  returned number 
+  822             6          2         3
+
+         69 - 66 = 3    ----> 6 - 3 = 3 || 
+
+counter  control digit  position  returned number 
+  823             5          1         3
+
+         59 - 57 = 2    ----> 5 - 2 = 3 || 
+
+counter  control digit  position  returned number 
+  824             4          3         0
+
+         49 - 45 = 4    ----> 4 - 4 = 0 || 
+10 2827 
+
+counter  control digit  position  returned number 
+  825             6          4         1
+
+         69 - 64 = 5    ----> 6 - 5 = 1 || 
+
+counter  control digit  position  returned number 
+  826             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  827             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  828             5          0         4
+
+         59 - 58 = 1    ----> 5 - 1 = 4 || 
+
+counter  control digit  position  returned number 
+  829             7          1         5
+
+         79 - 77 = 2    ----> 7 - 2 = 5 || 
+16 2843 
+
+counter  control digit  position  returned number 
+  830             6          0         5
+
+         69 - 68 = 1    ----> 6 - 1 = 5 || 
+
+counter  control digit  position  returned number 
+  831             7          1         5
+
+         79 - 77 = 2    ----> 7 - 2 = 5 || 
+
+counter  control digit  position  returned number 
+  832             8          0         7
+
+         89 - 88 = 1    ----> 8 - 1 = 7 || 
+
+counter  control digit  position  returned number 
+  833             6          3         2
+
+         69 - 65 = 4    ----> 6 - 4 = 2 || 
+
+counter  control digit  position  returned number 
+  834             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+25 2868 
+
+counter  control digit  position  returned number 
+  835             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+
+counter  control digit  position  returned number 
+  836             6          1         4
+
+         69 - 67 = 2    ----> 6 - 2 = 4 || 
+
+counter  control digit  position  returned number 
+  837             8          1         6
+
+         89 - 87 = 2    ----> 8 - 2 = 6 || 
+
+counter  control digit  position  returned number 
+  838             8          2         5
+
+         89 - 86 = 3    ----> 8 - 3 = 5 || 
+
+counter  control digit  position  returned number 
+  839             7          0         6
+
+         79 - 78 = 1    ----> 7 - 1 = 6 || 
+27 2895 
+
+counter  control digit  position  returned number 
+  840             6          -1         0
+
+         69 - 69 = 0    ----> 6 - 0 = 6 || 
+
+counter  control digit  position  returned number 
+  841             8          0         7
+
+         89 - 88 = 1    ----> 8 - 1 = 7 || 
+
+counter  control digit  position  returned number 
+  842             7          2         4
+
+         79 - 76 = 3    ----> 7 - 3 = 4 || 
+
+counter  control digit  position  returned number 
+  843             8          -1         0
+
+         89 - 89 = 0    ----> 8 - 0 = 8 || 
+
+counter  control digit  position  returned number 
+  844             7          1         5
+
+         79 - 77 = 2    ----> 7 - 2 = 5 || 
+30 2925 
+
+counter  control digit  position  returned number 
+  845             6          -1         0
+
+         69 - 69 = 0    ----> 6 - 0 = 6 || 
+
+counter  control digit  position  returned number 
+  846             8          5         2
+
+         89 - 83 = 6    ----> 8 - 6 = 2 || 
+
+counter  control digit  position  returned number 
+  847             0          -1         0
+
+         0 - 0 = 0    ----> 0 - 0 = 0 || 
+
+last sum of final table 2933
+
+
+Generating last sum of 2933
+
+final result 2933 >> 8
+SAME RESULT SET !!!

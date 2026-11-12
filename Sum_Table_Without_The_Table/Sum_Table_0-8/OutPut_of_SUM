@@ -1,0 +1,74 @@
+A Table which given below with the sum of the digits of 
+[Notice that digit 9 is missing from the table as a result number]
+a specific number here sometimes refered as [cd]
+and by using a hypothetis of a range 
+and by taking the number two-two 
+
+and by doing a substract calculation
+and a second bases on first number first digit and the result 
+and then add
+
+see below
+
+|-------------------------------------------------------------
+|voyeristic behaviours and others have fun
+|using [0] to return absolute values whenever need it 
+|using number sequence addition theory with [9+1]/[0+1]
+|to return the result number 0 can be replaced with 9 [0=9]
+|Control_Digit as Index     :       Index_Position    
+|                           :    1 2 3 4 5 6 7 8 9 10 
+|                           :  -----results:--------- 
+|1([0])-index_position with :  | 0 8 7 6 5 4 3 2 1 0  
+|2([0])-index_position with :  | 1 0 8 7 6 5 4 3 2 1  
+|3([0])-index_position with :  | 2 1 0 8 7 6 5 4 3 2  
+|4([0])-index_position with :  | 3 2 1 0 8 7 6 5 4 3  
+|5([0])-index_position with :  | 4 3 2 1 0 8 7 6 5 4  
+|6([0])-index_position with :  | 5 4 3 2 1 0 8 7 6 5  
+|7([0])-index_position with :  | 6 5 4 3 2 1 0 8 7 6  
+|8([0])-index_position with :  | 7 6 5 4 3 2 1 0 8 7  
+|9([0])-index_position with :  | 8 7 6 5 4 3 2 1 0 8  
+|-------------------------------------------------------------
+last digit 1
+26 1
+
+Index as I of table   | Value 
+reporting x_nine values [max range values]: 
+0 --> 99 || 1 --> 69 || 2 --> 19 || 
+Index as I of table   | Value 
+reporting y_nonine values [ur current values]: 
+0 --> 98 || 1 --> 62 || 2 --> 1 || 
+Index as I of table   | Value 
+reporting control digits [first digit]: 
+0 --> 9 || 1 --> 6 || 2 --> 1 || 
+number of rows 2
+
+for ur number: 98621 with length 4 the cd is 26 >> 8
+
+using l_two_di 1 ---> @fnl using control_digit 9 and pos as  0 with cd 1
+counter  control digit  position  returned number 
+  0             9          0         8
+
+         [9]9 - 98 = ([1])    ----> 9 - 1 = (8) || 
+
+using l_two_di 7 ---> @fnl using control_digit 6 and pos as  6 with cd 7
+counter  control digit  position  returned number 
+  1             6          6         8
+
+         [6]9 - 62 = ([7])    ----> 6 - 7 = (8) || 
+
+using m 9 of 18 ---> @fnl using control_digit 1 and pos as  8 with cd 9
+counter  control digit  position  returned number 
+  2             1          8         1
+
+       [1]9 - 1 = 18 -->([9])         1 - 9 = (1) --> 
+                                     ----> sum as first sum 0 >> 9 ||  
+
+last sum of final table 17 by adding all numbers in '()' eg 1+8+8=17
+
+Generating last sum of 17
+
+final result for main number cd 8 : 
+17 >> 8 ---> SAME RESULT SET !!!
+17 as 1+7=8
+
+so for 98621 as 9+8+6+2+1=26 and 26 as 2+6=8 as a new 188 or 1+8+8=17 and 1+7=8
