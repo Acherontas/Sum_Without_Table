@@ -227,7 +227,7 @@ int remove_them()
         //if(m==0){lrsi=cntrl_digit[i];}
         //lrs[lp]=lrsi;
         lrsi=(cntrl_digit[i]*10)-m;
-            if(lrsi<0){m-cntrl_digit[i]*10};
+            if(lrsi<0){lrsi=m-cntrl_digit[i]*10};
         cout<<"       " << x_nine[i] << " - " << y_nonine[i] << " = " << l_two_di <<"  ";
         //cout<<"       " << cntrl_digit[i] << " - " << m << " = " << lrs[lp] <<" --> ";
         cout<<"       " << cntrl_digit[i]*10 << " - " << m << " = " << lrsi <<" --> ";
@@ -241,7 +241,7 @@ int remove_them()
         //if(l_two_di==0){lrsi=cntrl_digit[i];}
         //lrs[lp]=lrsi;
         lrsi=(cntrl_digit[i]*10)-l_two_di;
-            if(lrsi<0){l_two_di-cntrl_digit[i]*10};
+            if(lrsi<0){lrsi=l_two_di-cntrl_digit[i]*10};
         cout<<"         " << x_nine[i] << " - " << y_nonine[i] << " = " << l_two_di <<"  ";
         //cout<<"  ----> " << cntrl_digit[i] << " - " << l_two_di << " = " << lrs[lp] <<" || \n";
         cout<<"       " << cntrl_digit[i]*10 << " - " << l_two_di << " = " << lrsi <<" --> ";
